@@ -1,0 +1,46 @@
+<resources>
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionModeOverlay">true</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="colorControlNormal">@color/appColorControlNormal</item>
+        <item name="colorControlHighlight">@color/appColorControlHighlight</item>
+        <item name="colorControlActivated">@color/appColorControlActivated</item>
+        <item name="colorPrimary">@color/appColorPrimary</item>
+        <item name="colorPrimaryDark">@color/appColorPrimaryDark</item>
+        <item name="colorAccent">@color/appColorAccent</item>
+        <item name="drawerArrowStyle">@style/AppTheme.DrawerArrowStyle</item>
+        <item name="android:windowBackground">@color/appWindowBackground</item>
+        <item name="actionModeBackground">?attr/colorPrimary</item>
+        <item name="actionBarTheme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+        <item name="actionBarPopupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+
+
+    </style>
+
+    <style name="AppTheme.DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@android:color/white</item>
+    </style>
+
+    <style name="AppTheme.ToolBarStyle" parent="AppBaseTheme.ToolBarStyle"/>
+
+    <style name="AppBaseTheme.ToolBarStyle">
+        <item name="android:theme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+        <item name="android:background">?attr/colorPrimary</item>
+
+
+        <!--
+        http://stackoverflow.com/questions/26728570/android-appcompat-21-elevation
+        The only way to simulate elevation right now is to apply a shadow
+        http://www.reddit.com/r/androiddev/comments/2kd843/so_how_are_you_guys_doing_with_your_current/
+
+
+
+        -->
+    </style>
+
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+</resources>

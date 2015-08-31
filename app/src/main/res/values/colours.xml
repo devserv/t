@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="appColorPrimary">#F44336</color>
+    <color name="appColorPrimaryDark">#D32F2F</color>
+    <color name="appColorAccent">#F44336</color>
+    <color name="appColorEdgeEffect">#1fdddddd</color>
+    <color name="appColorControlNormal">#b9b9b9</color>
+    <color name="appColorControlHighlight">#1f000000</color>
+    <color name="appColorControlActivated">#F44336</color>
+    <color name="appWindowBackground">#fff3f3f3</color>
+    <color name="whiteText">#ffffff</color>
+    <color name="blackText">#000000</color>
+    <color name="fadedDarkText">#60000000</color>
+    <color name="appTransparent">@android:color/transparent</color>
+    <color name="listViewSelectedBg">#e5e5e5</color>
+    <color name="appListDividerColor">#d6d6d6</color>
+    <color name="darkBlackText">#666666</color>
+    <color name="notificationBgColor">@color/appColorPrimary</color>
+    <color name="importantColor">#F44336</color>
+    <color name="offlineAdvert">@color/appColorPrimary</color>
+    <color name="switchCompactAlternateThumbNormal">#aaaaaa</color>
+    <color name="switchCompactAlternateControlActivated">@color/whiteText</color>
+    <color name="textDrawableFillColor">@android:color/transparent</color>
+    <color name="textDrawbleFontColor">#ffffff</color>
+
+</resources>

@@ -1,0 +1,37 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/drawer_recyclebin"
+            android:icon="@drawable/nav_delete"
+            android:title="AAAA" />
+        <item
+            android:id="@+id/drawer_settings"
+            android:icon="@drawable/nav_settings"
+            android:title="AAAA" />
+    </group>
+
+    <!-- http://stackoverflow.com/questions/30605286/navigationview-insert-divider-without-subgroup/30605906#30605906 -->
+    <group
+        android:id="@+id/nav_more"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/drawer_apps"
+            android:icon="@drawable/nav_apps"
+            android:title="AAAA" />
+        <item
+            android:id="@+id/drawer_rateme"
+            android:icon="@drawable/nav_rate"
+            android:title="AAAA"/>
+        <item
+            android:id="@+id/drawer_tell_a_friend"
+            android:icon="@drawable/nav_share"
+            android:title="AAAA" />
+
+        <item
+            android:id="@+id/drawer_contact"
+            android:icon="@drawable/nav_contact"
+            android:title="AAAA" />
+    </group>
+
+</menu>

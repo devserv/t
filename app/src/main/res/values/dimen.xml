@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="global_padding_margin">10dp</dimen>
+    <dimen name="global_padding_margin_half">5dp</dimen>
+    <dimen name="drawer_padding">16dp</dimen>
+    <dimen name="drawer_height">192dp</dimen>
+    <dimen name="contact_photo_witdh">60dp</dimen>
+    <dimen name="contact_photo_height">60dp</dimen>
+    <dimen name="phone_number_marginTop">1dp</dimen>
+    <dimen name="in_out_holder_marginTop">4dp</dimen>
+    <dimen name="in_out_image_width_height">9dp</dimen>
+    <dimen name="important_view_width">4dp</dimen>
+    <dimen name="recording_player_holder_bottom">30dp</dimen>
+    <dimen name="simple_secion_header_text_padding">8dp</dimen>
+    <dimen name="toolBarElevation">4dp</dimen>
+    <dimen name="smallText">11sp</dimen>
+    <dimen name="mediumText">14sp</dimen>
+    <dimen name="largeText">16sp</dimen>
+    <dimen name="mediaplayer_divider_height">1dp</dimen>
+    <dimen name="status_bar_height">25dp</dimen>
+
+</resources>
